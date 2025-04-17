@@ -43,7 +43,7 @@ const RenderingLists = () => {
       books.map((book) => {
         return (
           <div>
-           <Book book={book} />
+           <Book book={book} key={book} />
           </div>  
         )
       })
