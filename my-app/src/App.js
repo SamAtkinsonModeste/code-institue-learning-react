@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import RenderingListsWithKeys from "./components/RenderingListsWithKeys";
+import LifeCyclesCDM from "./components/LifeCyclesCDM";
 
 function App() {
   return (
     <div className="App">
-     <RenderingListsWithKeys />
+     <LifeCyclesCDM />
   </div>
   );
 }
