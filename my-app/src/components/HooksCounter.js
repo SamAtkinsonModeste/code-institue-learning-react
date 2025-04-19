@@ -18,3 +18,4 @@ export default function HooksCounter(props) {
     </div>
   );
 }
+
