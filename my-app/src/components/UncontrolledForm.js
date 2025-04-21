@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 
+// This indeed supposed to be a class component, not a functional component
+// as it uses React.createRef() to create refs for the input fields.
 export class UncontrolledForm extends Component {
     constructor(props) {
         super(props)
         this.inputName = React.createRef();
-        // this.inputCategory = React.createRef();
-        // this.inputComments = React.createRef();
+        this.inputCategory = React.createRef();
+        this.inputComments = React.createRef();
     }
     handleSubmit = (event) => {
         event.preventDefault();
