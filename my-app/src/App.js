@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import  UseEffectCounter from "./components/UseEffectCounter";
+import  UseEffectCounterOnce from "./components/UseEffectCounterOnce";
 
 function App() {
   return (
     <div className="App">
-     <UseEffectCounter />
+     <UseEffectCounterOnce />
   
   </div>
   );
