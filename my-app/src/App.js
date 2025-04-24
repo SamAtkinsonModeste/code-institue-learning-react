@@ -1,12 +1,12 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import  UseEffectCounterOnce from "./components/UseEffectCounterOnce";
+import  HTTPRequests from "./components/HTTPRequests";
 
 function App() {
   return (
     <div className="App">
-     <UseEffectCounterOnce />
-  
+     <HTTPRequests />
   </div>
   );
 }
